@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style-type: none;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo img{
+    width: 229px;
+    padding: 25px;
+    margin-left: 80px;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+}
+header ul li a{
+    color: white;
+    font-size: 27px;
+    transition: 0.8s;
+}
+header ul li{
+    margin-left: 26px;
+}
+
+header nav ul li a:hover{
+    color: yellow;
+    transition: 0.6s;
+}
+
+.social ul{
+    margin-right: 100px;
+}
+
+.social ul li a{
+    display: flex;
+    justify-content: center;
+   
+}
+.social ul li a i{
+    font-size: 20px;
+    margin-top: 7px;
+}
+.social ul li{
+    margin: 0 5px;
+    width: 35px;
+    height: 35px;
+    background: rgb(50,60,70);
+    font-size: 16px;
+    border-radius: 50%;
+}
+.social ul li:hover{
+    background-color: yellow;
+    transition: 0.s;
+    
+}
+.social ul li a i:hover{
+    color: black;
+}
+
+
+
+
+
+/* Image */
+
+.introduction{
+    background-image: url(../images/bg-picture\ \(1\).jpg);
+    height: max-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: border-box;  
+    
+}
+/* image */
+
+
+.introduction .one{
+    
+    padding:  185px 180px 155px;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(255,255,255,0.75);
+    
+}
+.one .inputs{
+    position: relative;
+    width: 370px;
+    height: 550px;
+    border: 3px solid white;
+    background-color: white;
+    border-radius: 15px;  
+    font-size: 17px;  
+}
+.one .inputs form label{
+    position: absolute;
+ 
+   
+}
+.one .inputs form .Voen{
+    top: 113px;
+    left: 25px;
+}
+.one .inputs form .sirket{
+    top: 176px;
+    left: 25px;
+}
+.one .inputs form .man{
+    top: 246px;
+    left: 25px;
+}
+.one .inputs form .contact{
+    top: 309px;
+    left: 25px;
+}
+.one .inputs form .email{
+    top: 374px;
+    left: 25px;
+}
+.inputs form label{
+    color: black;
+    transition: all .5s ease;
+    font-family: sans-serif;
+    pointer-events: none;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 17px;
+    
+}
+
+
+.inputs input:focus + label,
+.inputs input:valid + label
+{
+   
+    
+    font-size: 12px;
+    padding-bottom: 45px;
+    color: #fac819;
+    
+}
+.inputs input:focus + label,
+.inputs input:valid + label
+{
+
+    padding-top: -45px;
+    color: yellow;
+   
+}
+
+
+
+
+
+
+
+
+.inputs form{
+    display: flex;
+    flex-direction: column;
+}
+.inputs form h2{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    padding: 19px;
+}
+.inputs form input{
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    
+}
+
+.inputs form input:focus{
+    
+    border-bottom: 1px solid yellow;
+  
+}
+
+.inputs form .submit{
+    background: rgb(250, 200, 25);
+    width: 200px;
+    height: 60px;
+    padding: 15px 30px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid rgb(250, 200, 25);
+    color: #fff;
+    font-size: 18px;
+    margin-left: 65px;
+}
+.one .yazi{
+    width: 550px;
+    height: 250px;
+    margin-top: 110px;
+    
+}
+.one .yazi p{
+    width: 600px;
+    padding: 23px 5px;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+}
+.one .yazi h1{
+    font-size: 40px;
+    font-family: Cab;
+    text-align: center;
+}
+hr{
+    border: 3px solid #fac819;;
+    border-radius: 10px;
+    width: 190px;
+    margin-left: 190px;
+    margin-top: 21px;
+    background-color: #fac819;
+   
+}
+
+
