@@ -100,7 +100,7 @@ header nav ul li a:hover{
 .one .inputs{
     position: relative;
     width: 370px;
-    height: 550px;
+    height: 480px;
     border: 3px solid white;
     background-color: white;
     border-radius: 15px;  
@@ -228,7 +228,7 @@ header nav ul li a:hover{
 hr{
     border: 3px solid #fac819;;
     border-radius: 10px;
-    width: 190px;
+    width: 160px;
     margin-left: 190px;
     margin-top: 21px;
     background-color: #fac819;
@@ -236,3 +236,411 @@ hr{
 }
 
 
+
+/* Ustunluklerimiz */
+
+:root{
+    --card-witdh: 120px;
+    --card-height: 200px;
+}
+
+.advantages{
+    width: 100%;
+    height: 570px;
+    background-color: white;
+    
+    position: relative;
+}
+.advantages .head h2{
+    height: 100px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif ,Cab;
+
+}
+
+.advantages .head .underline{
+    position: absolute;
+    left: 679px;
+    top: 70px;
+}
+.advantages .animation{
+    background-image: linear-gradient(to bottom, rgba(250, 200, 25, .3), transparent);
+
+}
+.card i{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(250,200,25);
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+}
+.card i{
+    transform: rotate(-45deg);
+}
+.card{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* 1-ci kart */
+.card-settings{
+    width: 204px;
+    height: 350px;
+ 
+}
+.card-kredit{
+    width: var(--card-witdh);
+    height: var(--card-height);
+    background-image: linear-gradient(to bottom, rgba(250, 200, 25, .3), transparent);
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.card-kredit{
+    transform: rotate(45deg);
+}
+.card .card-settings h3{
+    text-align: center;
+    font-size: cab;
+    font-size: 18px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.card .card-settings p{
+    text-align: center;
+    font-size: cab;
+    color: #555;
+    line-height: 1.5;
+}
+/* 1ci kart end */
+
+
+
+
+/* 2ci kart */
+.card-okey{
+    width: 204px;
+    height: 350px; 
+}
+
+.card-skorinq{
+    width: var(--card-witdh);
+    height: var(--card-witdh);
+    background-image: linear-gradient(to bottom, rgba(250, 200, 25, .3), transparent);
+    margin-left: 40px;
+    margin-top: 67px;
+}
+.card-skorinq{
+    transform: rotate(45deg);
+}
+
+.card-okey h3{
+    text-align: center;
+    font-size: cab; 
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.card-okey p{
+    text-align: center;
+    font-size: cab;
+    color: #555;
+    line-height: 1.5; 
+}
+
+
+
+
+
+
+
+/* 3ci kart */
+
+.card-partners{
+    width: 204px;
+    height: 350px; 
+}
+
+.card-partnyor{
+    width: var(--card-witdh);
+    height: var(--card-height);
+    background-image: linear-gradient(to bottom, rgba(250, 200, 25, .3), transparent);
+    margin-left: 40px;
+    margin-top: 45px;
+}
+.card-partnyor{
+    transform: rotate(45deg);
+}
+.card-partners h3{
+        text-align: center;
+        font-size: cab; 
+        font-size: 18px;
+        margin-top: -15px;
+        margin-bottom: 7px;
+        width: 210px;
+}
+.card-partners p{
+    text-align: center;
+    font-size: cab;
+    color: #555;
+    line-height: 1.5; 
+}
+
+
+
+/* 4ci kart */
+
+.card-resurs{
+    width: 204px;
+    height: 350px;  
+}
+.card-qenaet{
+    width: var(--card-witdh);
+    height: var(--card-witdh);
+    background-image: linear-gradient(to bottom, rgba(250, 200, 25, .3), transparent);
+    margin-left: 40px;
+    margin-top: 75px;
+}
+.card-qenaet{
+    transform: rotate(45deg);
+}
+
+.card-resurs h3{
+    text-align: center;
+    font-size: cab; 
+    font-size: 18px;
+    margin-top: 35px;
+    margin-bottom: 7px;
+    width: 210px;
+}
+.card-resurs p{
+    text-align: center;
+    font-size: cab;
+    color: #555;
+    line-height: 1.5; 
+}
+/* end ustunluklerimiz */
+.melumat{
+    margin-top: 45px;
+    width: 100%;
+    height: 490px;
+    background-color: rgb(2, 13, 37);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.melumat .infor{
+    color: white;
+    width: 310px;
+    height: 350px;
+    position: relative;
+}
+.melumat .infor h2{
+    font-size: 30px;
+    text-align: center;
+}
+.melumat .infor .inf{
+    position: absolute;
+    right: 80px;
+    margin-top: 10px;
+}
+.melumat .infor p{
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+.melumat .video{
+    width: 650px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+
+}
+.melumat .video i{
+    font-size: 70px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transition: 2s;
+    color: red;
+}
+.melumat .video i:hover{
+    color: green;
+    transform:rotate(125deg)
+    
+}
+
+/* <!-- iNFORMATION --> */
+
+
+/* <!-- Bankimage --> */
+    .innoland{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .innoland .partnyor{
+        width: 350px;
+        height: 200px;
+        font-family: Cab, sans-serif;
+        
+    }
+    .innoland .partnyor h3{
+        font-size: 40px;
+        text-align: center;
+        color: rgb(15,25,35);
+    }
+    .innoland .partnyor .partnyorlarımız{
+
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    .innoland .partnyor p{
+        font-size: 20px;
+        text-align: center;
+        color: #555;
+        line-height: 1.8;
+        margin-top: 20px;
+    }
+
+
+
+
+/* image */
+
+.innoland .inno ul li img{
+    width: 200px;
+    filter: grayscale(100%);
+}
+.innoland .inno ul .ilkuc{
+    display: flex;
+    flex-direction: row;
+}
+.innoland .inno ul .soniki{
+    display: flex;
+    flex-direction: row;
+}
+.innoland .inno ul li img{
+    margin: 25px;
+    margin-right: 100px;
+}
+.innoland .inno ul .soniki li .embafinans{
+    margin-left: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+/* <!--End Bankimage --> */
+
+
+
+
+
+
+
+/* footer */
+footer{
+    width: 100%;
+    height: 510px;
+    background-color: rgb(15,25,35);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+footer .sosial {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+footer .sosial a{
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+footer .sosial a i{
+    margin: 0 5px;
+    width: 45px;
+    height: 45px;
+    background: rgb(50,60,70);
+    font-size: 19px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+}
+footer .line {
+    height: 2px;
+    width: 100px;
+    background: #707070;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+footer ul li{
+    margin-bottom: 20px;
+    text-align: center;
+}
+footer ul li a{
+    color: white;
+    font-size: 25px;
+    margin: 20px;
+    transition: 0.6s;
+
+}
+footer ul li a:hover{
+    color: yellow;
+    transition: 0.6s;
+}
+footer .sosial a i:hover{
+    color:black;
+    background-color: yellow;
+    transition: 0.6s;
+}
+
+footer .finance a{
+    font-size: 25px;
+    color: #fff;
+}
+footer .finance a:hover{
+    color: #fac819;
+}
+
+
+
+
+
+/* end footer */
